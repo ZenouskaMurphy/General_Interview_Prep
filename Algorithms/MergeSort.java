@@ -11,7 +11,7 @@ public class MergeSort {
 
         //copy data from original array into two temp subarrays
         for(int i=0; i<size_left_arr; i++){
-            left_array[i] = arr[i];
+            left_array[i] = arr[start + i];
         }
         for(int j=0; j<size_right_arr; j++){
             right_array[j] = arr[middle + 1 + j];

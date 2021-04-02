@@ -1,12 +1,12 @@
 public class LinkListLength{
     
     public int countNodes(){
-        int number = 0;
+        int length = 0;
         Node current = head;
         while (current != null){
-            number++;
+            length++;
             current = current.next;
         }
-        return number;
+        return length;
     }
 }
